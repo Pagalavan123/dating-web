@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./javascript.js"></script>
+</head>
+<body>
+    <!-- JQUERY STEP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-steps/1.1.0/jquery.steps.min.js"></script>
+<div class="wrapper">
+    <form action="">
+        <div id="wizard">
+            <!-- SECTION 1 -->
+            <h4></h4>
+            <section>
+                <label>Enter Your Name:</label>
+                <div class="form-row"> <input type="text" class="form-control" placeholder="Name"> </div>
+                <label>Enter Your Email: </label>
+                <div class="form-row"> <input type="text" class="form-control" placeholder="Email"> </div>
+                <label>Enter Your Number:</label>
+                <div class="form-row"> <input type="text" class="form-control" placeholder="Phone number"> </div>
+                <label>Enter Your DOB:</label>
+                <div class="form-row"> <input type="date" class="form-control" > </div>
+            </section> <!-- SECTION 2 -->
+            <h4></h4>
+            <section>
+                <label>What is Your Education Level:</label>
+<select name="qualification" class="form-control">
+  <option value="volvo">Diplamo</option>
+  <option value="saab">SSLC</option>
+  <option value="mercedes">HSC</option>
+  <option value="audi">UG</option>
+  <option value="audi">PG</option>
+</select><br>
+<label>What is Your Relationship Status:</label>
+<select name="qualification" class="form-control">
+  <option value="volvo">Single</option>
+  <option value="saab">Married</option>
+  <option value="mercedes">Relationship</option>
+  <option value="audi">Engaged</option>
+  <option value="audi">Divorced</option>
+</select><br>
+
+
+      <label>Enter Your Current Livivng City:</label>
+                <div class="form-row"> <input type="text" class="form-control" placeholder="Your City Name"> </div><br>
+                <label>Enter Your Gmail Address:</label>
+                <div class="form-row"> <input type="gmail" class="form-control" placeholder="Gmail Address"> </div>
+
+                <div class="form-row" style="margin-bottom: 18px"> <textarea name="" id="" class="form-control" placeholder="Add your hobbies" style="height: 108px"></textarea> </div>
+            </section> <!-- SECTION 3 -->
+     <!-- SECTION 4 -->
+            <h4></h4>
+            <section>
+                <div class="container height-100 d-flex justify-content-center align-items-center"> <div class="position-relative"> <div class="card p-2 text-center"> <h6>Please enter the one time password <br> to verify your account</h6> <div> <span>A code has been sent to</span> <small>*******9897</small> </div> <div id="otp" class="inputs d-flex flex-row justify-content-center mt-2"> <input class="m-2 text-center form-control rounded" type="text" id="first" maxlength="1" /> <input class="m-2 text-center form-control rounded" type="text" id="second" maxlength="1" /> <input class="m-2 text-center form-control rounded" type="text" id="third" maxlength="1" /> <input class="m-2 text-center form-control rounded" type="text" id="fourth" maxlength="1" /> <input class="m-2 text-center form-control rounded" type="text" id="fifth" maxlength="1" /> <input class="m-2 text-center form-control rounded" type="text" id="sixth" maxlength="1" /> </div> <div class="mt-4"> <button class="btn btn-danger px-4 validate">Validate</button> </div> </div> <div class="card-2"> <div class="content d-flex justify-content-center align-items-center"> <span>Didn't get the code</span> <a href="#" class="text-decoration-none ms-3">Resend(1/3)</a> </div> </div> </div>
+            </div>
+            </section>
+        </div>
+    </form>
+</div>
+</body>
+</html>
